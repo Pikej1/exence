@@ -12,7 +12,8 @@
 				<div class="container">
 					<h1>Piotr Kwit - zadanie rekrutacyjne</h1>
 					<p>Wynik:</p>
-					<p>${result.value}</p>
+					<%-- <p>${result.value}</p> --%>
+					<p>${result}</p>
 				</div>
 			</div>
 			<div class="col-sm-4">
