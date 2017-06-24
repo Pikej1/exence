@@ -67,18 +67,5 @@
 				</fieldset>
 			</form:form>
 		</section>
-		<section class="container">
-			<form:form modelAttribute="result" method="GET" action="https://gturnquist-quoters.cfapps.io/api/${result.value}" class="form-horizontal">
-				<fieldset>
-					<div class="col-sm-4">
-						<label class="control-label">Podaj liczbe naturalna</label>
-						<form:input path="value" type="text"></form:input>
-					</div>
-					<div class="col-sm-4">
-						<input type="submit" id="btnAdd1" class="btn btn-primary" value ="Wyślij"/>
-					</div>
-				</fieldset>
-			</form:form>
-		</section>
 	</body>
 </html>
